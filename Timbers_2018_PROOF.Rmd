@@ -1,0 +1,45 @@
+---
+title: "Systems Thinking as an Imperative for Modern Science"
+subtitle: "Tiffany Timbers"
+author: "Deptartment of Statistics & Master of Data Science Program, UBC"
+date: "2018/11/27 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# My background
+
+- Ph.D. in Neuroscience from UBC (genetics/molecular biology focus)
+
+- Research Postdoc at Simon Fraser University (Cell biology + genomics focus)
+
+- Teaching Postdoc at UBC with the Master of Data Science (MDS) program
+
+- Currently, UBC Instructor with Dept. of Statistics & MDS program, and Option Co-Director of the MDS program
+
+---
+
+class: center, middle, inverse
+
+In a world where data sets are larger and larger, and more complex, how do you approach designing your analytical strategy to maximize insights gained?
+
+---
+
+1. Focus and spend time on the research question.
+  - it should be good (e.g., specific, answerable, plausible framework - well sometimes)
+  - you should be aware of the kind of question it is (e.g., exploratory, predictive, inferential)
+
+2. Map your analysis to your research question (this can often go wrong, see [Leek & Peng, 2015](http://science.sciencemag.org/content/347/6228/1314)).
+
+3. Get the simplest reasonable version of the analysis working first. Then iterate over the computational and scientific hurdles as you refine your analysis.
+
+4. Use reproducible Data Science tools to mitigate chaos and maximize transparency, reproducibility, and productivity.
